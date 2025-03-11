@@ -1,0 +1,10 @@
+<div class="card text-center container">
+    <div class="card-header header">
+      <h5>Elige tu Candidato</h5>
+    </div>
+    <div class="card-body">
+    @for (i of candidates; track i) {
+      <a href="#" class="btn btn-primary" (click)="voteCandidate($index)" >{{i}}</a>
+    }
+    </div>
+</div>

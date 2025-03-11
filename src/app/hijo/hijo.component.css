@@ -1,0 +1,12 @@
+a{
+    margin: 0 30px;
+}
+
+.container{
+    width: 700px;
+}
+
+.header{
+    background-color: rgb(34, 93, 223);
+    color: white;
+}
